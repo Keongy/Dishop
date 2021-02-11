@@ -9,7 +9,7 @@ export function Home() {
     return <div className="d-flex min-vh-100 flex-column">
         <BannerTop page={'Titles'} />
         <div className="container flex-grow-1">
-            <div className="row mt-5">
+            <div className="row justify-content-center justify-content-lg-start mt-5">
                 <div className="col-auto">
                     <a href="/series" className="label">
                         <div className="placeholder" >
