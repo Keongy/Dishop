@@ -1,0 +1,31 @@
+ul {
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    list-style-type: none;
+}
+
+ul li img {
+    width: 200px;
+}
+
+.overflow-ellipsis {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
