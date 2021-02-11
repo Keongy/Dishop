@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Dishop project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+J'ai fais ce project avec Npx create react app.
 
-In the project directory, you can run:
+Configuration :
 
-### `yarn start`
+- Npm install puis 'npm start' ou 'yarn start'
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Choix techniques et architecturaux
 
-### `yarn test`
+J'ai décidé d'utiliser bootstrap pour permettre d'avoir du responsive assez facilement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Pouvez-vous apporter des améliorations à votre soumission? && Que feriez-vous différemment si on vous accordait plus de temps?
 
-### `yarn build`
+Oui plusieurs améliorations peuvent être faites concernant le loader (loader pour chaque image), ainsi que d'ajouter un loader un peu partout ou il peu y avoir un chargement afin d'avoir un confort d'utilisation pour agréable.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Les composants "series" et "movies" sont très proches, faire un composant global avec des paramètres serait plus simple à maintenir !
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La fonction async est inutile dans le cas d'un json en local mais par réflexe je suis parti sur un async dans l'optique de faire un await fetch sauf que c'est du local... 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pas mal de détails comme par exemple un scale avec un léger rotate sur le hover des images ainsi des hovers sur les logos pour les changer de couleurs avec une transition etc...
 
-### `yarn eject`
+Les fichiers css (sass peut être ? Ainsi que modifier les fichiers bootstrap pour enelever les marges et les padding ...)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Conclusion
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Peu importe le résultat, j'ai pris un grand plaisir à réaliser ce projet !
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Merci
