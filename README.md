@@ -24,6 +24,8 @@ Pas mal de détails comme par exemple un scale avec un léger rotate sur le hove
 
 Les fichiers css (sass peut être ? Ainsi que modifier les fichiers bootstrap pour enlever les marges et les padding ...)
 
+Un dark thème.. 
+
 
 ## Conclusion
 
