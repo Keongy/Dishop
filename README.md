@@ -22,7 +22,7 @@ La fonction async est inutile dans le cas d'un json en local mais par réflexe j
 
 Pas mal de détails comme par exemple un scale avec un léger rotate sur le hover des images ainsi des hovers sur les logos pour les changer de couleurs avec une transition etc...
 
-Les fichiers css (sass peut être ? Ainsi que modifier les fichiers bootstrap pour enelever les marges et les padding ...)
+Les fichiers css (sass peut être ? Ainsi que modifier les fichiers bootstrap pour enlever les marges et les padding ...)
 
 
 ## Conclusion
